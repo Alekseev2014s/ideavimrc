@@ -25,12 +25,17 @@ map Q gq
 
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
 
+Plug 'preservim/nerdtree'
+map <c-t> :NERDTree<CR>
+""autocmd FileType nerdtree map <buffer> h <Plug>NERDTreeDirCollapse
+""autocmd FileType nerdtree map <buffer> l <Plug>NERDTreeDirOpen
 " Highlight copied text
 Plug 'machakann/vim-highlightedyank'
 " Commentary plugin
 Plug 'tpope/vim-commentary'
 
 set clipboard+=unnamed
+set nu
 set rnu
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
 "" Map \r to the Reformat Code action
