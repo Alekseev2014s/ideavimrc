@@ -12,9 +12,10 @@ set ideavimstatuslineformat=%{IdeavimStatusLineFormat()}
 set ideaput
 
 Plug 'easymotion/vim-easymotion'
-let mapleader="\"
+let mapleader="A-;"
 set easymotion
-map <Leader> <Plug>(easymotion-prefix)
+"map <Leader> <Plug>(easymotion-prefix)
+map <A-;> <Plug>(easymotion-prefix)
 
 "" -- Suggested options --
 " Show a few lines of context around the cursor. Note that this makes the
