@@ -61,7 +61,7 @@ map gk <Action>(CheckinProject)
 map gP <Action>(Vcs.Push)
 map gp <Action>(Vcs.UpdateProject)
 
-
+map <A-r> <Action>(CMake.ClearCacheAndReload)
 
 ""map gh <Action>(QuickDocumentation)
 ""map gh <Action>(ShowQuickDoc)
