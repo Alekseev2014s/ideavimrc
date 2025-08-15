@@ -17,6 +17,7 @@ set easymotion
 "map <Leader> <Plug>(easymotion-prefix)
 map <A-;> <Plug>(easymotion-prefix)
 
+
 "" -- Suggested options --
 " Show a few lines of context around the cursor. Note that this makes the
 " text scroll if you mouse-click near the start or end of the window.
@@ -61,7 +62,11 @@ map gk <Action>(CheckinProject)
 map gP <Action>(Vcs.Push)
 map gp <Action>(Vcs.UpdateProject)
 
-map <A-r> <Action>(CMake.ClearCacheAndReload)
+nmap <C-w>= <Action>(MaximizeEditorInSplit)
+nmap <C-w>- <Action>(StretchSplitToBottom)
+nmap <C-w>< <Action>(StretchSplitToLeft)
+nmap <C-w>> <Action>(StretchSplitToRight)
+nmap <C-w>+ <Action>(StretchSplitToTop)
 
 ""map gh <Action>(QuickDocumentation)
 ""map gh <Action>(ShowQuickDoc)
