@@ -51,6 +51,9 @@ set rnu
 "" Map <leader>d to start debug
 "map <leader>d <Action>(Debug)
 
+map <A-j> <Action>(MethodDown)
+map <A-k> <Action>(MethodUp)
+
 map gD <Action>(GotoTypeDeclaration)
 map gd <Action>(GotoDeclaration)
 map gi <Action>(GotoImplementation)
