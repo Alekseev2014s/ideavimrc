@@ -70,6 +70,7 @@ nmap <C-w>- <Action>(StretchSplitToBottom)
 nmap <C-w>< <Action>(StretchSplitToLeft)
 nmap <C-w>> <Action>(StretchSplitToRight)
 nmap <C-w>+ <Action>(StretchSplitToTop)
+nmap <C-w>V <Action>(MoveEditorToOppositeTabGroup)
 
 ""map gh <Action>(QuickDocumentation)
 ""map gh <Action>(ShowQuickDoc)
