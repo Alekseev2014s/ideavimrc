@@ -51,19 +51,21 @@ set rnu
 "" Map <leader>d to start debug
 "map <leader>d <Action>(Debug)
 
-map <A-j> <Action>(MethodDown)
-map <A-k> <Action>(MethodUp)
+map <C-j> <Action>(MethodDown)
+map <C-k> <Action>(MethodUp)
 
 map gD <Action>(GotoTypeDeclaration)
 map gd <Action>(GotoDeclaration)
 map gi <Action>(GotoImplementation)
 map gr <Action>(GotoRelatedSymbol)
 
-map rn <Action>(RenameElement)
+map gR <Action>(CMake.ClearCacheAndReload)
 
 map gk <Action>(CheckinProject)
 map gP <Action>(Vcs.Push)
 map gp <Action>(Vcs.UpdateProject)
+
+map rn <Action>(RenameElement)
 
 nmap <C-w>= <Action>(MaximizeEditorInSplit)
 nmap <C-w>- <Action>(StretchSplitToBottom)
@@ -71,6 +73,7 @@ nmap <C-w>< <Action>(StretchSplitToLeft)
 nmap <C-w>> <Action>(StretchSplitToRight)
 nmap <C-w>+ <Action>(StretchSplitToTop)
 nmap <C-w>V <Action>(MoveEditorToOppositeTabGroup)
+map vw <Action>(EditorSelectWord)
 
 ""map gh <Action>(QuickDocumentation)
 ""map gh <Action>(ShowQuickDoc)
