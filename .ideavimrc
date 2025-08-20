@@ -75,6 +75,9 @@ nmap <C-w>+ <Action>(StretchSplitToTop)
 nmap <C-w>V <Action>(MoveEditorToOppositeTabGroup)
 map vw <Action>(EditorSelectWord)
 
+map <C-S-k> <Action>(MoveStatementUp)
+map <C-S-j> <Action>(MoveStatementDown)
+
 ""map gh <Action>(QuickDocumentation)
 ""map gh <Action>(ShowQuickDoc)
 ""map gh <Action>(QuickImplementations)
