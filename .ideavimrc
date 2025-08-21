@@ -66,6 +66,7 @@ map gP <Action>(Vcs.Push)
 map gp <Action>(Vcs.UpdateProject)
 
 map rn <Action>(RenameElement)
+map rt <Action>(SurroundWithLiveTemplate)
 
 nmap <C-w>= <Action>(MaximizeEditorInSplit)
 nmap <C-w>- <Action>(StretchSplitToBottom)
@@ -75,6 +76,11 @@ nmap <C-w>+ <Action>(StretchSplitToTop)
 nmap <C-w>V <Action>(MoveEditorToOppositeTabGroup)
 map vw <Action>(EditorSelectWord)
 
+nmap <C-A-k> <Action>(EditorCloneCaretAbove)
+nmap <C-A-j> <Action>(EditorCloneCaretBelow)
+vmap <C-A-k> <Action>(EditorCloneCaretAbove)
+vmap <C-A-j> <Action>(EditorCloneCaretBelow)
+
 map <C-S-k> <Action>(MoveStatementUp)
 map <C-S-j> <Action>(MoveStatementDown)
 
@@ -83,6 +89,7 @@ map <C-S-j> <Action>(MoveStatementDown)
 ""map gh <Action>(QuickImplementations)
 map vp <Action>(QuickJavaDoc)
 imap jj <Esc>
+""EditorEscape
 
 
 "" Map \b to toggle the breakpoint on the current line
