@@ -51,11 +51,13 @@ set rnu
 "" Map <leader>d to start debug
 "map <leader>d <Action>(Debug)
 
-map <C-a> <Action>($SelectAll)
+"map <C-a> <Action>($SelectAll)
 imap <C-a> <Action>($SelectAll)
 
 map <C-c> <Action>($Copy)
 map <C-v> <Action>($Paste)
+imap <C-c> <Action>($Copy)
+imap <C-v> <Action>($Paste)
 
 map <C-j> <Action>(MethodDown)
 map <C-k> <Action>(MethodUp)
