@@ -95,7 +95,8 @@ map <C-S-j> <Action>(MoveStatementDown)
 ""map gh <Action>(QuickDocumentation)
 ""map gh <Action>(ShowQuickDoc)
 ""map gh <Action>(QuickImplementations)
-map vp <Action>(QuickJavaDoc)
+map <C-q> <action>(QuickJavaDoc)
+map <C-p> <action>(ParameterInfo)
 imap jj <Esc>
 ""EditorEscape
 
