@@ -74,6 +74,7 @@ map gP <Action>(Vcs.Push)
 map gp <Action>(Vcs.UpdateProject)
 
 map rn <Action>(RenameElement)
+map rm <Action>(SafeDelete)
 map rt <Action>(SurroundWithLiveTemplate)
 
 nmap <C-w>= <Action>(MaximizeEditorInSplit)
