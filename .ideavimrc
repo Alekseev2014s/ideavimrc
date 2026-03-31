@@ -74,8 +74,8 @@ map gP <Action>(Vcs.Push)
 map gp <Action>(Vcs.UpdateProject)
 
 map rn <Action>(RenameElement)
-map rm <Action>(SafeDelete)
 map rt <Action>(SurroundWithLiveTemplate)
+nmap cfa :!format.bat<CR><CR>
 
 nmap <C-w>= <Action>(MaximizeEditorInSplit)
 nmap <C-w>- <Action>(StretchSplitToBottom)
