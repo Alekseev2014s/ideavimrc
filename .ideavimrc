@@ -66,8 +66,10 @@ map gD <Action>(GotoTypeDeclaration)
 map gd <Action>(GotoDeclaration)
 map gi <Action>(GotoImplementation)
 map gr <Action>(GotoRelatedSymbol)
+map gu <Action>(ShowUsages)
 
-map gR <Action>(CMake.ClearCacheAndReload)
+map cR <Action>(CMake.ClearCacheAndReload)
+map cr <Action>(CMake.ReloadCMakeProject)
 
 map gk <Action>(CheckinProject)
 map gP <Action>(Vcs.Push)
