@@ -67,6 +67,7 @@ map gd <Action>(GotoDeclaration)
 map gi <Action>(GotoImplementation)
 map gr <Action>(GotoRelatedSymbol)
 map gu <Action>(ShowUsages)
+map gh <Action>(SwitchHeaderSource)
 
 map cR <Action>(CMake.ClearCacheAndReload)
 map cr <Action>(CMake.ReloadCMakeProject)
