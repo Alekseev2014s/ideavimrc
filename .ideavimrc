@@ -69,8 +69,8 @@ map gr <Action>(GotoRelatedSymbol)
 map gu <Action>(ShowUsages)
 map gh <Action>(SwitchHeaderSource)
 
-map cR <Action>(CMake.ClearCacheAndReload)
-map cr <Action>(CMake.ReloadCMakeProject)
+map <A-S-R> <Action>(CMake.ClearCacheAndReload)
+map <A-r> <Action>(CMake.ReloadCMakeProject)
 
 map gk <Action>(CheckinProject)
 map gP <Action>(Vcs.Push)
@@ -78,7 +78,7 @@ map gp <Action>(Vcs.UpdateProject)
 
 map rn <Action>(RenameElement)
 map rt <Action>(SurroundWithLiveTemplate)
-nmap cfa :!format.bat<CR><CR>
+"nmap cfa :!format.bat<CR><CR>
 
 nmap <C-w>= <Action>(MaximizeEditorInSplit)
 nmap <C-w>- <Action>(StretchSplitToBottom)
